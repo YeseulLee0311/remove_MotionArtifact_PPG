@@ -7,11 +7,6 @@ import healthgate
 from scipy import signal
 from scipy import stats
 
-'''
-https://github.com/aj-cloete/pySSA
-use 'mySSA.py' file from above link
-'''
-
 
 def getTime2(timestamp):
     readable = [0 for x in range(int(len(timestamp)))]
